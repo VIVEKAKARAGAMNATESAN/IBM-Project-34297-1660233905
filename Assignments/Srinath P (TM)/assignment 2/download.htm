@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html ng-app="kpApp">
+<head>
+
+	<!-- Begin Metas -->
+		<meta name="keywords" 
+         	content="Engineering Knowledge, Virtual training, Education Management, Manufacturing learning Education Management Educational skills"/>
+
+		<meta name="description" 
+         	content="POD.WORKS is a technology platform with a primary aim of empowering knowledge network digitally. 
+         	A company that blends engineering and manufacturing knowledge to develop self-interactive digitally interactive products, 
+         	simulating real life experiences needed for the growth of businesses, institutions and various stakeholders."/>
+        <meta name="google-site-verification" content="Pypp2JKtCeaDdusaxs-lE30R_e9SvZ2Iv9Qa_8qs6qk" />
+		
+	
+	<base href="/"/>
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- End Metas -->
+
+	<link rel="apple-touch-icon" sizes="57x57" href="resources/images/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="resources/images/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="resources/images/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="resources/images/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="resources/images/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="resources/images/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="resources/images/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="resources/images/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="resources/images/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="resources/images/icons/android-icon-192x192.png">
+	<link rel="icon" type="imageresources/js/angular.min.js/png" sizes="32x32" href="resources/images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="resources/images/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="resources/images/icons/favicon-16x16.png">
+
+<script src="resources/js/pdf.js"></script>
+
+<link rel="stylesheet" href="dist/css/plugins.min.css">
+
+<link rel="stylesheet" href="dist/css/vendor.min.css">
+
+
+<!-- Vendor Javascripts Begin -->
+<script src="resources/js/lib/jquery/jquery-2.1.1.min.js"></script>
+<script src="resources/js/lib/jquery/jquery-ui.min.js"></script>
+
+<script src="dist/plugins/jquery.concat.20181219133734.js"></script>
+
+<script src="resources/js/lib/angularjs/angular.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-material.js"></script>
+<script src="resources/js/lib/angularjs/angular-cookies.js"></script>
+<script src="resources/js/lib/angularjs/ngStorage.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-resource.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-route.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-aria.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-sanitize.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-animate.min.js"></script>
+<script src="resources/js/lib/angularjs/angular-slick-min.js"></script>
+
+
+
+<script src="resources/js/lib/angularjs/angular-ui-router.js"></script>
+<script type="text/javascript" src="resources/js/lib/angularjs/angular-breadcrumb.min.js"></script>
+<!--  HTML EDitor -->
+
+<script src="resources/js/ocLazyLoad.min.js"></script>
+<script src="resources/js/lib/bootstrap/ui-bootstrap-tpls-1.1.2.min.js" asnyc defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCgzQIOwd7IWcLQWbLRjlMb8FvqU79bf0g" async defer></script>
+<script src="resources/js/multiple-select.js"></script>
+<script src="resources/js/autocomplete.js"></script>
+<script src="resources/js/rzslider.min.js"></script>
+<script src="resources/js/sortable.js"></script>
+<script src="resources/js/angular-pdfjs-viewer.js"></script>
+
+<!-- custom angular controller start here -->
+<script src="scripts/msgsEng.js"></script>
+<script src="dist/js/app.min.20181219133912.js"></script>
+
+<script src="dist/js/index.bundle.min.20181219133912.js"></script>
+
+<script src="dist/js/bundle.min.20181219133911.js" defer></script>
+
+<script src="resources/js/lib/calendar/calendar.js"></script>
+<script src="resources/js/lib/calendar/fullcalendar.min.js"></script>
+
+
+<!-- McAfee SSL Seal -->
+<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+
+<!-- Angular Directives -->
+
+<!-- Filters -->
+
+<meta charset="UTF-8">
+
+<title ng-bind="title | limitTo: 70"></title>
+<!-- <script>
+ document.domain = window.location.hostname.substr(window.location.hostname.indexOf(".")+1);
+</script> -->
+</head>
+<body class="siemens-video-background" ng-class="{'fixed': isDropdownOpen == true, 'firefox-body': isFirefox}" ng-controller="AuthController" ng-init="getBasicData()">
+
+	<div class="container no-padding site-container">
+		<div id="header_page" ui-view = "header-page"></div>
+		<div id="main_page" ui-view = "page-main-content" class="page-main-content resp_mt_60 "></div>
+		<div id="footer_page" ui-view = "footer-page"></div>
+	</div>
+	
+	
+	<!-- <div ng-view class="white_background" autoscroll="true"></div> -->
+	
+	<!-- <div ui-view class="white_background" autoscroll="true"></div> -->
+
+  <!-- Custom Javascripts Begin -->
+  
+  <!-- Custom Javascripts End -->
+
+</body>
+</html>
